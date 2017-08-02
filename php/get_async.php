@@ -1,11 +1,15 @@
 <?php
 header('content-type:text/html;charset=utf-8');
 //echo phpinfo();
-$username = $_POST['user'];
+$username = $_GET['user'];
 
-$users = array('leo','momo','刘伟','妙味');//['']
+$users = array('leo','momo','dudu','刘伟','妙味');
 
 //echo $users[0];
+
+//echo $username;
+
+sleep( 5 );//休眠
 
 if( in_array( $username , $users ) ){
 	
@@ -13,7 +17,7 @@ if( in_array( $username , $users ) ){
 
 }else{
 
-	echo '可以注册';
+	echo '用户名可以注册';
 
 }
 
