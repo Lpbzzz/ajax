@@ -7,7 +7,7 @@ input,textarea{outline:none; resize:none; border:none;}
 .clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
 .clearfix{*zoom:1;}
 
-body{background:url(img/bg.jpg) center center no-repeat; background-size:100% 140%;}
+body{background:url(img/bg.jpg) no-repeat center 0; background-size:cover;}
 /*登陆*/
 .loginBox{
 	width:278px; padding:30px 80px 20px 80px; margin:40px auto; 
